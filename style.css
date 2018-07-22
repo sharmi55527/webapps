@@ -1,0 +1,184 @@
+.parent
+{
+  border: 3px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+.childone{
+  border: 3px solid blue;
+  padding: 3%;
+  margin: 2%;
+  width: 30%;
+  text-align: center;
+  border-radius:%;
+}
+img{
+  width:200px;
+  border: 3px solid grey;
+  border-radius: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 7px 9px #000;
+}
+
+.childtwo
+{
+  border: 3px solid blue;
+  padding: 3%;
+  margin: 2%;
+  border-radius:;
+  width: 70%;
+
+}
+table{
+  width:90%;
+}
+td{
+  padding:2%;
+}
+@media only screen and (min-width:320px) and (max-width: 480px)
+{
+  .parent
+  {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .childone{
+    border: 3px solid blue;
+    padding: 3%;
+    margin: 2%;
+    width: 80%;
+    text-align: center;
+    border-radius:;
+    background-color:teal;
+  }
+
+  a,h1,h3,p{
+    word-wrap: break-word;
+  }
+  
+  img{
+    width: 200px;
+    border: 3px solid grey;
+    border-radius: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 9px #000;
+  }
+
+  .childtwo
+  {
+    border: 3px solid blue;
+    background-color:teal;
+    padding: 3%;
+    margin: 2%;
+    border-radius:%;
+    width: 80%;
+
+  }
+
+}
+
+  @media only screen and (min-width: 481px) and (max-width: 768px)
+  {
+    .parent
+    {
+      border: 3px solid red;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .childone{
+      border: 3px solid blue;
+      
+      font-size: 100%;
+      padding: 3%;
+      margin: 2%;
+      width: 90%;
+      text-align: left;
+      border-radius:;
+      background-color:;
+    }
+
+    a,h1,h3,p{
+      word-wrap: break-word;
+    }
+    
+    img{
+      width:200px;
+      border: 3px solid blue;
+      border-radius: 60%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 5px 7px 9px #000;
+    }
+
+    .childtwo
+    {
+      border: 3px solid blue;
+      font-family: sans-serif;
+      background-color: #6E33FF;
+      padding: 3%;
+      margin: 2%;
+      border-radius:;
+      width: 80%;
+
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px)
+  {
+    .parent
+    {
+      border: 3px solid red;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .childone{
+      border: 3px solid teal;
+      
+      font-size: 100%;
+      padding: 3%;
+      margin: 2%;
+      width: 90%;
+      text-align: left;
+      border-radius:;
+      background-color:;
+    }
+
+    a,h1,h3,p{
+      word-wrap: break-word;
+    }
+    
+    img{
+      width:200px;
+      border: 3px solid blue;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 5px 7px 9px #000;
+    }
+
+    .childtwo
+    {
+      border: 3px solid teal;
+      font-family:;
+      background-color:;
+      padding: 3%;
+      margin: 2%;
+      border-radius:;
+      width: 80%;
+
+    }
+  } 
+
+ 
