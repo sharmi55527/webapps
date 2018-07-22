@@ -1,0 +1,23 @@
+.parent{
+	display: flex;
+	width: 100%;
+	border:  2px solid teal;
+
+}
+.left{
+	width: 30%;
+	border: 2px solid gray;
+	margin:2%;
+	padding: 2%;
+	text-align: center;
+}
+.right{
+	width: 70%;
+	border: 2px solid gray;
+	margin:2%;
+	padding:2%;
+}
+#co{
+	color:blue;
+
+}
